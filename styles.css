@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins";
+}
+
+.home-height {
+  height: 82.4vh;
+}
+
+.shop-height {
+  height: 125vh;
+}
+
+.profile-height {
+  height: 82.4vh;
+}
+
+.footer-text {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-height {
+    height: 85.4vh;
+  }
+  .shop-height {
+    height: 470vh;
+  }
+
+  .footer-text {
+    font-size: 6px;
+  }
+}
